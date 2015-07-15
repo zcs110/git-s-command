@@ -1,0 +1,17 @@
+全局配置  : 
+$ git config --global user.name "name"
+$ git config --global user.email "xxx@hotmail.com"
+$ git config -l    list
+
+
+$ git status 查看所有文件状态
+$ git status 文件名 查看指定文件的状态
+$ git log   按字母 q 可以退出(关闭中文输入法)
+
+$ git reset --hard 版本号(前6位) 切换到任意版本
+$ git reflog  查看分支引用记录，能够查阅所有的版本号
+
+
+
+$ git commit -m "注释" 将暂存区内容提交至代码库
+$ git commit --amend 修改最后一次提交的注释
